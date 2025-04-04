@@ -27,7 +27,7 @@
         </div>
 
         <div class="control-group">
-          <label for="leftAngle">Left Incident Angle (degrees):</label>
+          <label for="leftAngle">Left Refraction Angle (degrees):</label>
           <input
             type="number"
             id="leftAngle"
@@ -39,7 +39,7 @@
         </div>
 
         <div class="control-group">
-          <label for="rightAngle">Right Incident Angle (degrees):</label>
+          <label for="rightAngle">Right Refraction Angle (degrees):</label>
           <input
             type="number"
             id="rightAngle"
@@ -55,8 +55,8 @@
         <div class="info-columns">
           <div class="info-column">
             <p>Critical Angle: {{ criticalAngle.toFixed(2) }}°</p>
-            <p>Left Refracted Angle: {{ leftRefractedAngle.toFixed(2) }}°</p>
-            <p>Right Refracted Angle: {{ rightRefractedAngle.toFixed(2) }}°</p>
+            <p>Left Incident Angle: {{ leftRefractedAngle.toFixed(2) }}°</p>
+            <p>Right Incident Angle: {{ rightRefractedAngle.toFixed(2) }}°</p>
           </div>
           <div class="info-column">
             <p>
